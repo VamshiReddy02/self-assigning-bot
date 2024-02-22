@@ -1,24 +1,13 @@
-name: 'self assigning bot'
-description: 'Provide a description here'
-author: 'Vamshi Reddy'
-
-# Add your action's branding here. This will appear on the GitHub Marketplace.
-branding:
-  icon: 'heart'
-  color: 'red'
-
-# Define your inputs here.
+name: 'prow-github-actions'
+description: 'Prow inspired github CI/CD actions'
+author: 'vamshi reddy'
 inputs:
-  milliseconds:
-    description: 'Your input description here'
+  github-token:
+    description: "Github token"
     required: true
-    default: '1000'
-
-# Define your outputs here.
-outputs:
-  time:
-    description: 'Your output description here'
-
+  prow-command:
+    description: "Comment keyword/command to look for"
+    required: true
 runs:
-  using: node20
-  main: dist/index.js
+  using: 'node12'
+  main: 'dist/index.js'
