@@ -77,7 +77,7 @@
     "@types/js-yaml": "^4.0.9",
     "@types/minimatch": "^5.1.2",
     "@types/node": "^22.5.5",
-    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/eslint-plugin": "^8.5.0",
     "@typescript-eslint/parser": "^7.16.1",
     "@vercel/ncc": "^0.38.1",
     "@zeit/ncc": "^0.22.3",
