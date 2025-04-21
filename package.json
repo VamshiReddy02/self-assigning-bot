@@ -77,11 +77,11 @@
     "@types/js-yaml": "^4.0.9",
     "@types/minimatch": "^5.1.2",
     "@types/node": "^22.14.1",
-    "@typescript-eslint/eslint-plugin": "^8.29.1",
-    "@typescript-eslint/parser": "^8.29.1",
+    "@typescript-eslint/eslint-plugin": "^8.30.1",
+    "@typescript-eslint/parser": "^8.30.1",
     "@vercel/ncc": "^0.38.3",
     "@zeit/ncc": "^0.22.3",
-    "eslint": "^9.24.0",
+    "eslint": "^9.25.0",
     "eslint-plugin-github": "^5.1.8",
     "eslint-plugin-jest": "^28.11.0",
     "eslint-plugin-jsonc": "^2.20.0",
@@ -92,7 +92,7 @@
     "make-coverage-badge": "^1.2.0",
     "nock": "^14.0.4",
     "prettier": "^3.5.3",
-    "prettier-eslint": "^16.3.0",
+    "prettier-eslint": "^16.4.1",
     "ts-jest": "^29.3.2",
     "typescript": "^5.8.3"
   }
