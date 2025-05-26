@@ -69,7 +69,7 @@
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/github": "^2.1.1",
-    "@octokit/webhooks": "^13.9.0",
+    "@octokit/webhooks": "^14.0.0",
     "minimatch": "^9.0.5"
   },
   "devDependencies": {
